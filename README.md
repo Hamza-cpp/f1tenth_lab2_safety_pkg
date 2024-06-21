@@ -57,6 +57,7 @@ Note the following topic names for your publishers and subscribers:
 - `AckermannDriveStamped`: /drive
 
 ## V: Deliverables and Submission
+
 You can implement this node in either C++ or Python. A skeleton package is already provided in the repo that you can use. If you're using docker, develop **directly in the simulation container** provided, and put your package in `/sim_ws/src` alongside the simulation package.
 When following the instruction in the simulation repo, the repo directory will be mounted to the sim container. You can also add extra volumes mounted for your convenience when editing the files. For example, if you're using the `rocker` tool:
 
@@ -70,11 +71,4 @@ Note that if you're using Windows, make sure your files have Unix style line end
 
 **Deliverable 1**: After you're finished, update the entire skeleton package directory with your `safety_node` package and directly commit and push to the repo Github classroom created for you. Your commited code should start and run in simulation smoothly.
 
-**Deliverable 2**: Make a screen cast of running your safety node in the simulation. Drive the car with keyboard teleop along the hallways of Levine, showing it doesn't brake when travelling straight in the hallway. You need to show that your safe node doesn't generate false positives. i.e. The car doesn't suddenly stop while travelling down the hallway. Then show the car driving towards a wall and braking correctly. Upload your video to YouTube (unlisted) and include a link to the video in **`SUBMISSION.md`**.
-
-## VI: Grading Rubric
-- Compilation: **30** Points
-- Provided Video: **20** Points
-- Correctly stops before collision: **30** Points
-- Correctly calculates TTC: **10** Points
-- Able to navigate through the hallway: **10** Points
+**Deliverable 2**: Make a screen cast of running your safety node in the simulation. Drive the car with keyboard teleop along the hallways of Levine, showing it doesn't brake when travelling straight in the hallway. You need to show that your safe node doesn't generate false positives. i.e. The car doesn't suddenly stop while travelling down the hallway. Then show the car driving towards a wall and braking correctly.
